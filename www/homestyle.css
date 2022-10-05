@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #0b0f19;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid white;
+}
+
+.nav1{
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+header h3{
+    font-size: 20pt;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav div{
+    padding: 10px;
+}
+
+#config{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#config a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#config a:hover{
+    color: #262779;
+}
+
+#entrar{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#entrar:hover{
+    color: #262779;
+}
+
+#criarconta{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#criarconta:hover{
+    color: #262779;
+}
+
+.wallpapernav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/images/wp6425178.jpg);
+}
+
+.wallpapernav h1{
+    padding: 30px;
+    float: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25pt;
+    color: white;
+}
+
+.wallpapernav h2{
+    padding: 30px;
+    float: center;
+    display: flex;
+    justify-content: center;
+    opacity: 75%;
+    font-size: 12pt;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.acervo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+
+.acervo nav{
+    padding: 50px;
+    width: 33.3%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acervo nav h1{
+    display: flex;
+    justify-content: center;
+    float: center;
+    margin-bottom: 25px;
+}
+
+#btn-vizualizar{
+    padding: 10px;
+    font-size: 12pt;
+    color: white;
+    text-decoration: none;
+    background-color: #5900ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#btn-vizualizar:hover{
+    background-color: #262779;
+}
+
+.navdasnavs{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+}
+
+#navs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 50px;
+}
+
+#img{
+    border: 1px solid white;
+    width: 250px;
+    height: 350px;
+}
+
+#legend{
+    margin-top: 25px;
+}
